@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Loch's</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <script src="script.js"></script>
+    <script src="navbar.js"></script>
+    <script src="menu.js"></script>
+</head>
+<body>
+    <header>
+        <div class="button-menu">
+            <i id="burguer" class="material-symbols-outlined" onclick="clickMenu()">menu</i>
+            <menu id="burguer-menu">
+                <ul>
+                    <li class="cor0" id="cores0" onclick="buttonCor0()"><a><strong>•</strong></a></li>
+                    <li class="cor1" id="cores1" onclick="buttonCor1()"><a><strong>•</strong></a></li>
+                    <li class="cor2" id="cores2" onclick="buttonCor2()"><a><strong>•</strong></a></li>
+                    <li class="cor3" id="cores3" onclick="buttonCor3()"><a><strong>•</strong></a></li>
+                    <li class="cor4" id="cores4" onclick="buttonCor4()"><a><strong>•</strong></a></li>
+                    <li class="cor5" id="cores5" onclick="buttonCor5()"><a><strong>•</strong></a></li>
+                    <li class="cor6" id="cores6" onclick="buttonCor6()"><a><strong>•</strong></a></li>
+                    <li class="cor7" id="cores7" onclick="buttonCor7()"><a><strong>•</strong></a></li>
+                    <li class="cor8" id="cores8" onclick="buttonCor8()"><a><strong>•</strong></a></li>
+                    <li class="cor9" id="cores9" onclick="buttonCor9()"><a><strong>•</strong></a></li>
+                    <li class="cor10" id="cores10" onclick="buttonCor10()"><a><strong>•</strong></a></li>
+                </ul>
+            </menu>
+        </div>
+        <h1>Olá mundo!</h1>
+        <div class="button-logoff"></div>
+    </header>
+    <main>
+        <h2>Bem vindos ao Loch's</h2>
+        <p>Escolha um número de 0 a 10.</p>
+        <div class="cores">
+            <input type="text" id="escolher" class="escolher-cor" placeholder="Digite o número." autocomplete="off">
+            <button class="botao-enviar" onclick="alterarCor()">Enviar</button>
+        </div>
+    </main>
+    <footer>
+    </footer>
+</body>
+</html>
